@@ -1,0 +1,15 @@
+ai-code-generator/
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── tailwind.config.js
+├── postcss.config.js
+├── index.html
+├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   └── components/
+│       └── BoltClone.tsx   // Твой основной код
+├── public/
+│   └── vite.svg
+└── README.md
