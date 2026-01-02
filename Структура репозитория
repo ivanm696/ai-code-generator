@@ -1,15 +1,14 @@
 ai-code-generator/
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
+├── package.json                  # Минимальный, только нужное
+├── vite.config.ts                # Пустой или базовый
+├── tsconfig.json                 # Стандартный
 ├── tailwind.config.js
 ├── postcss.config.js
-├── index.html
+├── index.html                    # С твоим title и root
 ├── src/
-│   ├── main.tsx
-│   ├── App.tsx
+│   ├── main.tsx                  # Рендерит BoltClone напрямую
+│   ├── index.css                 # Tailwind base
 │   └── components/
-│       └── BoltClone.tsx   // Твой основной код
-├── public/
-│   └── vite.svg
-└── README.md
+│       └── BoltClone.tsx         # Твой основной код (всё в одном файле)
+└── public/                       # Опционально, можно пустая
+    └── (vite.svg если хочешь иконку, но нахуй оно не нужно)
